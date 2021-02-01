@@ -25,7 +25,7 @@ evenDashNum();
 let myArr = document.getElementById('array');
 let array = [];
 for(let i = 0; i <= 100; i++){
-    if(i % 3 === 0 && i % 3 === 0){
+    if(i % 3 === 0 && i % 7 === 0){
         array.push(i);
     }
     console.log(array);
